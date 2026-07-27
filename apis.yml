@@ -1,8 +1,26 @@
 aid: idecsi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/idecsi.png
 name: Idecsi
-description: 'Idecsi is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Infrastructure SaaS. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'IDECSI is a Microsoft 365 and on-premises data security platform focused
+  on Data Security Posture Management (DSPM) and Data Access Governance (DAG). It helps
+  mid-size and large enterprises eliminate access, permission, and sharing risks across
+  Microsoft 365, SharePoint, and file systems, with advanced monitoring, permission
+  analysis, and user-driven security workflows. IDECSI serves large organizations such
+  as L''Oreal, TotalEnergies, SNCF, Renault, and ADP, and aligns with regulatory frameworks
+  including NIS2, DORA, and the EU AI Act. Surfaced as a portfolio company of Partech
+  and added to the API Evangelist network; the company publishes a marketing site,
+  blog, and help center but no public developer API or specification at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/idecsi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Infrastructure Saas
+- Data Security
+- Microsoft 365
+- Data Access Governance
+- DSPM
+- Cybersecurity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.idecsi.com/
+- type: Blog
+  url: https://blog.idecsi.com
+- type: Support
+  url: https://help.idecsi.com/
+- type: PrivacyPolicy
+  url: https://www.idecsi.com/privacy-policy/
+- type: SignUp
+  url: https://info.idecsi.com/demo-idecsi
+- type: DomainSecurity
+  url: security/idecsi-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
