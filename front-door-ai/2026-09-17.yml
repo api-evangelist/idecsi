@@ -1,0 +1,27 @@
+# Front Door AI Index — idecsi — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: idecsi
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.idecsi.com
+  final_host: www.idecsi.com
+  ownership: own
+  owner: idecsi
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 8
+  host_score: 8
+  density: 7.81
+  words: 1024
+  tiers:
+    agentic: 4
+    core: 4
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 4
+    copilot: 4
+    automation: 1
