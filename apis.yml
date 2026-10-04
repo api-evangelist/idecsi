@@ -46,7 +46,7 @@ tags:
 - Company
 - Infrastructure Saas
 - Data Security
-- Microsoft-365
+- Microsoft 365
 - Data Access Governance
 - DSPM
 - Cybersecurity
@@ -58,6 +58,7 @@ tags_raw:
 - Data Access Governance
 - DSPM
 - Cybersecurity
+- Microsoft-365
 apis: []
 maintainers:
 - FN: Kin Lane
